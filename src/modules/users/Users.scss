@@ -1,0 +1,17 @@
+.users {
+  .user-list-card {
+    margin: 10px 0px;
+    .row {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    &.lst-header {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  .head-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+}
